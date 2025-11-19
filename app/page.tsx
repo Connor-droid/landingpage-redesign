@@ -235,14 +235,14 @@ export default function Home() {
         </section>
 
         {/* FOOTER */}
-        <footer className="mt-12 border-t border-slate-200 pt-4 text-xs text-slate-500">
+        <footer className="mt-12 border-t border-slate-202 pt-4 text-xs text-slate-500">
           <div className="flex flex-col items-center justify-between gap-2 sm:flex-row">
             <p>
               © {new Date().getFullYear()} SproutLanding. Designed during a
               contribution sprint and safe to reuse.
             </p>
             <div className="flex flex-wrap items-center gap-2">
-              <span className="rounded-full border border-slate-200 bg-white px-2 py-1 text-[10px] font-medium text-slate-700">
+              <span className="rounded-full border border-slate-202 bg-white px-2 py-1 text-[10px] font-medium text-slate-700">
                 Next.js • TailwindCSS • TypeScript
               </span>
               <span className="text-[10px] text-slate-500">
